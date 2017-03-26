@@ -2,7 +2,7 @@
 Gemstone Website
 ================
 
-This is the website [http://gemstonejs.com] of the
+This is the website [gemstonejs.com](http://gemstonejs.com) of the
 [Gemstone JavaScript Technology Stack](http://gemstonejs.com).
 
 Copyright &amp; License
