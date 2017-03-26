@@ -1,2 +1,6 @@
-# gemstonejs.com
-Gemstone Website http:/gemstonejs.com
+
+Gemstone Website
+================
+
+This is the website http://gemstonejs.com of the GemstoneJS project.
+
