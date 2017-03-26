@@ -1,0 +1,147 @@
+
+body {
+    font-family: "TypoPRO Open Sans";
+    font-size: 12pt;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    line-height: 130%;
+}
+
+code {
+    font-family: "TypoPRO DejaVu Sans Mono";
+    font-size: 11.5pt;
+    background-color: #fcf4ed;
+    color: #333333;
+}
+code .meta {
+	color: #c67524;
+}
+
+.brown {
+	color: #c67524;
+}
+.browndark {
+	color: #9a5b1c;
+}
+
+a, a:hover, a:visited {
+    color: #c67524;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+div.canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100vw;
+}
+
+div.header {
+    display: block;
+    background-color: #000000;
+    padding: 20px 80px 20px 80px;
+    flex-basis: auto;
+}
+
+div.header svg {
+    width: 100%;
+}
+
+div.nav {
+    display: block;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 40px 100px 40px 100px;
+}
+
+div.footer {
+    display: block;
+    background-color: #000000;
+    padding: 20px 80px 20px 80px;
+    text-align: center;
+    color: #ffffff;
+    flex-basis: auto;
+}
+
+.content {
+    display: block;
+    background-color: #ffffff;
+    color: #333333;
+    flex-grow: 1;
+    height: 400px;
+    position: relative;
+}
+.content .swiper-container {
+    width:  100%;
+    height: 100%;
+}
+.content .swiper-slide {
+    width:  calc(100% - 200px) !important;
+    margin: 0 100px 0 100px;
+}
+.content .swiper-slide.slide1 {
+}
+.content .swiper-slide.slide2 {
+}
+.content .swiper-slide.slide3 {
+}
+.content .swiper-pagination-bullet-active {
+    background-color: #c67524;
+}
+.content .swiper-button-disabled {
+    display: none;
+}
+.content .icons {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.content .icons .fa-chevron-circle-left {
+    z-index: 100;
+    position: absolute;
+    left: 20px;
+    top: 45%;
+    color: #c67524;
+    font-size: 40px;
+}
+.content .icons .fa-chevron-circle-right {
+    z-index: 100;
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    color: #c67524;
+    font-size: 40px;
+}
+
+li[class^='cn-']::before,
+li[class*=' cn-']::before {
+    color: #c67524;
+    font-size: 140%;
+    left: 0.8em;
+}
+
+div.headline {
+    color: #c67524;
+    font-weight: bold;
+    font-size: 160%;
+    margin: 4px 0 12px 0;
+    letter-spacing: -0.02em;
+}
+
+.nav.nav-pills > .active > a,
+.nav.nav-pills > .active > a:focus {
+    background-color: #c67524;
+}
+.nav.nav-pills > .active > a:hover {
+    background-color: #c67524;
+}
