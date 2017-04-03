@@ -1,6 +1,11 @@
 
+<img src="https://rawgit.com/gemstonejs/gemstone-artwork/master/gemstone-logo-white.svg" width="300" align="right" alt=""/>
+
 Gemstone Website
 ================
+
+About
+-----
 
 This is the website [gemstonejs.com](http://gemstonejs.com) of the
 [Gemstone JavaScript Technology Stack](http://gemstonejs.com).
