@@ -8,6 +8,6 @@ This is the website [gemstonejs.com](http://gemstonejs.com) of the
 Copyright &amp; License
 -----------------------
 
-Copyright &copy; 2014-2017 [GemstoneJS Project](http://github.com/gemstonejs/gemstone-project)<br/>
-Licensed under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+Copyright &copy; 2016-2017 [GemstoneJS Project](http://gemstonejs.com)<br/>
+Licensed under [Apache License 2.0](https://spdx.org/licenses/Apache-2.0)
 

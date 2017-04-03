@@ -1,5 +1,11 @@
 {
-    "name": "gemstone-website",
+    "name":        "gemstone-website",
+    "version":     "0.0.0",
+    "license":     "Apache-2.0",
+    "author": {
+        "name":    "Gemstone Project",
+        "url":     "http://gemstonejs.com"
+    },
     "devDependencies": {
         "bower":                      "~1.8.0",
         "grunt":                      "~1.0.1",
