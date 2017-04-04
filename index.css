@@ -45,14 +45,30 @@ div.canvas {
 }
 
 div.header {
-    display: block;
     background-color: #000000;
     padding: 20px 80px 20px 80px;
-    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-div.header svg {
+div.header .margin {
+    display: block;
+    flex-grow: 0;
+}
+div.header .image {
+    display: block;
+    flex-grow: 8;
+}
+div.header .image img {
+    display: block;
     width: 100%;
+}
+@media (min-width: 1000px) {
+    div.header .image img {
+        width: 900px;
+        margin: auto;
+    }
 }
 
 div.nav {
