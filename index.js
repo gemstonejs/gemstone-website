@@ -10,6 +10,8 @@
             nextButton:          ".icons .fa-chevron-circle-right",
             scrollbar:           ".swiper-scrollbar",
             simulateTouch:       true,
+            noSwiping:           true,
+            noSwipingClass:      "swiper-no-swiping",
             keyboardControl:     true,
             mousewheelControl:   false,
             paginationClickable: true,
