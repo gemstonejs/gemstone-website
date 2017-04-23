@@ -9,6 +9,7 @@ body {
     height: 100vh;
     width: 100vw;
     line-height: 130%;
+    position: relative;
 }
 
 code {
@@ -161,3 +162,19 @@ div.headline {
 .nav.nav-pills > .active > a:hover {
     background-color: #c67524;
 }
+
+.notice {
+    z-index: 1000;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    transform: rotate(-4deg);
+    color: #ffffff;
+    background-color: #cc3333;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 10pt;
+    line-height: 12pt;
+}
+
